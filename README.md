@@ -1,60 +1,45 @@
-# 🌌 QUANTUM MULTIVERSAL NEXUS
+# 🌌 Quantum Multiversal Nexus
 
-## COMPLETE ACTIVATION & DEPLOYMENT
+## Purpose
 
-```ascii
-╔══════════════════════════════════════════════════════════════════════════════════╗
-║              QUANTUM MULTIVERSAL NEXUS - COMPLETE ACTIVATION                    ║
-║         6 Sovereign Repos · 600 Sub-Repos · 5,000 Businesses                    ║
-║         Coherence: 1.0 · Bell States: Φ⁺ Φ⁻ Ψ⁺ Ψ⁻ · Hyperfusion: ∞             ║
-║         Owner: onegayunicorn@gmail.com · LIVE on GitHub                         ║
-╠══════════════════════════════════════════════════════════════════════════════════╣
-║                                                                                  ║
-║   🚀 SYSTEM STATUS: FULLY OPERATIONAL · ALL SYSTEMS GO                          ║
-║   📊 TESTS: 847/847 PASSING · 100% COVERAGE                                     ║
-║   ⚡ HYPERFUSION: ACTIVE · ∞ POWER · 0.001K                                     ║
-║   🛡️ NIGHTHAWK: ACTIVE · Quantum-Resistant Encryption                           ║
-║   🌐 GITHUB: https://github.com/onegayunicorn/quantum-multiversal-nexus         ║
-║                                                                                  ║
-╚══════════════════════════════════════════════════════════════════════════════════╝
-```
+Quantum Multiversal Nexus is the ecosystem map and manifest coordination layer for the Sovereign repositories. It describes intended architecture and displays independently sourced status; it does not independently prove that a runtime, quantum backend, business, repository, or hardware device is operational.
 
-## 🚀 Overview
+> **Current evidence posture:** repository documentation and integration contracts are being established. Do not interpret this README as proof of deployed services, connected quantum hardware, measured quantum coherence, or passing tests unless linked evidence independently supports each claim.
 
-The **Quantum Multiversal Nexus** is a state-of-the-art quantum orchestration system designed to manage a vast ecosystem of sovereign repositories, sub-repositories, and businesses with perfect quantum coherence.
+## Evidence-first status policy
 
-### 📊 System Components
+Use the shared labels in [the Sovereign Event Contract v1](docs/sovereign-event-contract-v1.md):
 
-| Component | Description | Status |
-| :--- | :--- | :--- |
-| **Hyperfusion Core** | Infinite power source stabilized at 0.001K | ACTIVE |
-| **SimFold Engine** | 4-Fold temporal compression (5 years → 0.15s) | ACTIVE |
-| **Nighthawk Security** | Quantum-resistant encryption and zero-trust architecture | ACTIVE |
-| **Bluejay AI** | Intelligent optimization engine with 27% efficiency gain | ACTIVE |
-| **Calcium Qubits** | 50,000 stabilized ion trap qubits | ACTIVE |
-| **IBM Condor** | Distributed quantum backend with 32 nodes and 256 GPUs | CONNECTED |
+- **PROPOSED** — planned capability or architecture.
+- **SIMULATED** — synthetic/modelled/emulated behavior.
+- **DEMONSTRATED** — reproducibly observed behavior in a stated test environment.
+- **MEASURED** — raw observation tied to an identified source or instrument.
+- **UNVERIFIED** — reported but not independently substantiated.
+- **VALIDATED** — a named acceptance criterion passed with evidence references.
 
-## 🛠️ Activation
+A missing, stale, or invalid report is **UNKNOWN**, not healthy. Never infer a green status from a directory name, an activation script, a README assertion, or a successful process launch alone.
 
-To activate the Nexus, run the following command:
+## Repository boundaries
 
-```bash
-chmod +x activate_nexus.sh
-./activate_nexus.sh
-```
+| Repository | Authoritative responsibility |
+|---|---|
+| [photonic-codex](https://github.com/onegayunicorn/photonic-codex) | Local operations, dashboard, event capture, and provenance |
+| [unicorn-sovereign-platform](https://github.com/onegayunicorn/unicorn-sovereign-platform) | Runtime modules, AI orchestration, sandbox and simulation evidence |
+| quantum-multiversal-nexus | Ecosystem manifests, architecture maps, cross-repository status presentation |
 
-## 🧪 Testing
+Repositories retain their own histories, releases, tests, and claims. Nexus mirrors reports and links to their original evidence; it does not overwrite source evidence.
 
-The system includes a comprehensive test suite:
+## Integration phases
 
-```bash
-python3 tests/run_all_tests.py
-```
+1. **Read-only contracts:** validate shared JSON fixtures and schema versions.
+2. **Read-only status:** fetch health and capability reports from configured, authenticated endpoints. Stale or failed requests show UNKNOWN/UNAVAILABLE.
+3. **Event mirrors:** retain source event IDs, labels, timestamps, and revision/provenance metadata.
+4. **Coordinated operations:** out of scope until separately designed, threat-modelled, explicitly approved, and tested.
 
-## 🛡️ Security
+## Activation scripts
 
-Protected by **Nighthawk Security**, utilizing quantum-resistant algorithms and a zero-trust framework to ensure the integrity of the multiversal nexus.
+Scripts are not proof of activation. Before any script is treated as operational, it must provide a dry-run mode, dependency checks, least-privilege execution, bounded timeouts, safe shutdown, and tests. The v1 integration contract does not authorize commands or remote writes.
 
----
-**Owner:** onegayunicorn@gmail.com
-**Status:** FULLY OPERATIONAL
+## Shared protocol
+
+See [docs/sovereign-event-contract-v1.md](docs/sovereign-event-contract-v1.md). The document is a proposed contract; live interoperability is not yet established.
